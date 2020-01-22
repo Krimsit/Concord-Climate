@@ -1,0 +1,230 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+html div, body div {
+  overflow: visible;
+}
+
+html div .top_info, body div .top_info {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #039BE5;
+  height: 44px;
+  color: #ffffff;
+  width: 100%;
+  z-index: 999999;
+}
+
+html div .top_info .content, body div .top_info .content {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  font-size: 16px;
+  line-height: 44px;
+}
+
+html div .top_info .content .email, body div .top_info .content .email {
+  position: absolute;
+  left: 0;
+}
+
+html div .top_info .content .email p, body div .top_info .content .email p {
+  margin: 0;
+}
+
+html div .top_info .content .phone, body div .top_info .content .phone {
+  position: absolute;
+  right: 0;
+}
+
+html div .top_info .content .phone p, body div .top_info .content .phone p {
+  margin: 0;
+}
+
+html div .wrapper, body div .wrapper {
+  min-height: 100%;
+}
+
+html div .wrapper .head, body div .wrapper .head {
+  position: relative;
+  width: 100%;
+  background-color: #27292E;
+  height: 52px;
+}
+
+html div .wrapper .head .menu, body div .wrapper .head .menu {
+  width: 97%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 12% 78% 10%;
+      grid-template-columns: 12% 78% 10%;
+}
+
+html div .wrapper .head .menu .logo a img, body div .wrapper .head .menu .logo a img {
+  height: 52px;
+}
+
+html div .wrapper .head .menu .hamburger, body div .wrapper .head .menu .hamburger {
+  display: none;
+}
+
+html div .wrapper .head .menu .navbar, body div .wrapper .head .menu .navbar {
+  display: block;
+  height: 52px;
+  color: #CCCCCC;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+html div .wrapper .head .menu .navbar ul, body div .wrapper .head .menu .navbar ul {
+  list-style: none;
+}
+
+html div .wrapper .head .menu .navbar ul li, body div .wrapper .head .menu .navbar ul li {
+  color: #CCCCCC;
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+html div .wrapper .head .menu .navbar ul li a, body div .wrapper .head .menu .navbar ul li a {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+html div .wrapper .head .menu .navbar ul li a:visited, body div .wrapper .head .menu .navbar ul li a:visited {
+  color: #CCCCCC;
+}
+
+html div .wrapper .head .menu .navbar ul li a:hover, body div .wrapper .head .menu .navbar ul li a:hover {
+  color: #039BE5;
+}
+
+html div .wrapper .main, body div .wrapper .main {
+  position: relative;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 65px;
+  min-height: 100%;
+}
+
+html div .wrapper .main .content, body div .wrapper .main .content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+html div .wrapper .main .content .owl-carousel, body div .wrapper .main .content .owl-carousel {
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+html div .wrapper .main .content h1, body div .wrapper .main .content h1 {
+  font-size: 40px;
+  color: #212529;
+}
+
+html div .wrapper .main .content hr, body div .wrapper .main .content hr {
+  margin-top: -15px;
+  width: 4.6%;
+  height: 5px;
+  background-color: #06ABFC;
+  border: 0;
+}
+
+html div .wrapper .main .content p, body div .wrapper .main .content p {
+  color: #212529;
+  font-size: 20px;
+}
+
+html div .wrapper .main .content img, body div .wrapper .main .content img {
+  width: 77%;
+}
+
+html div .wrapper .main .content .text, body div .wrapper .main .content .text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 65px;
+}
+
+html div .wrapper .main .content .text p, body div .wrapper .main .content .text p {
+  color: #212529;
+  font-size: 18px;
+}
+
+html div .wrapper .main .content .text p a, body div .wrapper .main .content .text p a {
+  color: #00A7FF;
+  text-decoration: none;
+}
+
+html div .wrapper .main .content .text p a:hover, body div .wrapper .main .content .text p a:hover {
+  text-decoration: underline;
+}
+
+html div .footer, body div .footer {
+  position: relative;
+  width: 100%;
+  background-color: #3D4045;
+  color: #CCCCCC;
+}
+
+html div .footer .footer_menu, body div .footer .footer_menu {
+  margin: 0 auto;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.333333% 33.333333% 33.333333%;
+      grid-template-columns: 33.333333% 33.333333% 33.333333%;
+}
+
+html div .footer .footer_menu .footer_item_menu .title, body div .footer .footer_menu .footer_item_menu .title {
+  color: #50514C;
+  font-size: 20px;
+}
+
+html div .footer .footer_menu .footer_item_menu ul, body div .footer .footer_menu .footer_item_menu ul {
+  padding: 0;
+  list-style: none;
+  color: #96A1A3;
+}
+
+html div .footer .footer_menu .footer_item_menu ul .item, body div .footer .footer_menu .footer_item_menu ul .item {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+html div .footer .footer_menu .footer_item_menu ul .item .fas, body div .footer .footer_menu .footer_item_menu ul .item .fas {
+  margin-right: 7px;
+}
+
+html div .footer .footer_menu .footer_item_menu ul .hover:hover, body div .footer .footer_menu .footer_item_menu ul .hover:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+html div .footer hr, body div .footer hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  color: #000000;
+  opacity: 0.1;
+}
+
+html div .footer .footer_info, body div .footer .footer_info {
+  width: 80%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=index.css.map */
